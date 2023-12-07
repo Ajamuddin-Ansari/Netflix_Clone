@@ -1,0 +1,427 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(0 0 0 / 40%);
+    background-image: url(./netfliximage/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+#image{
+    background-color: rgba(0, 0, 0, 0.434);
+    padding-bottom: 13.5rem;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 126.6px;
+    padding: 24px 48px;
+}
+
+.header-content #left img{
+
+    overflow: hidden;
+    width: 13rem;
+    height: 3rem;
+
+    display: block;
+    fill: currentColor;
+}
+
+.header-content #right {
+    display: flex;
+
+}
+
+.header-content #right select {
+    background-color: transparent;
+    position: relative;
+    /* width: 80%; */
+    color: white;
+    font-size: 1rem;
+    height: 30px;
+    padding: 5px 26px 5px 26px;
+    border-radius: 3px;
+}
+
+
+.header-content #right button {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    margin-left: 25px;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+.header-content #right button a {
+    /* background-color: rgb(229, 9, 20); */
+    color: white;
+    text-decoration: none;
+}
+
+#enjoy {
+    
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 6.2%;
+}
+
+#enjoy h1 {
+    margin-top: 10rem ;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 0%;
+    letter-spacing: 3px;
+    word-spacing: 13px;
+    margin-bottom: 0%;
+}
+
+#enjoy p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+
+#enjoy .enjoy-1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: white;    */
+    width: 60%;
+    margin: auto;
+}
+#enjoy .enjoy-1 input{
+    margin-left: 1.5rem;
+    width: 430px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: black;
+}
+#enjoy .enjoy-1 input::placeholder{
+    color: Grey;
+    font-size: 1rem;
+    padding-left: 15px;
+}
+#enjoy .enjoy-1 #btn{
+    width: 220px;
+    border-radius: 3px;
+    background-color: red;
+    margin-right: 1.3rem;
+    color: white;
+    font-size: 1.7rem;
+    padding-right: 30px;
+}
+#enjoy .enjoy-1 .fa-chevron-right{
+   
+  position: absolute;
+  top: 20px;
+  right: 55px;
+  color: white;
+  font-size: 1rem;
+}
+body{
+    background-color: black;
+}
+
+
+
+
+#tv{
+    
+     /* background-color: red;  */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+
+    
+    
+    
+}
+#tvleft{
+    width: 50%;
+}
+#tvleft h1{
+    font-size: 2.5rem;
+}
+#tvleft p{
+    font-size: 1.5rem;
+}
+#tvright{
+    width: 50%;
+    position: relative;
+}
+#tvright img{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+#tvright video{
+    position: absolute;
+    top: 20.6%;
+    left: 13%;
+    z-index: 0;
+    width: 73%;
+}
+hr {
+    margin: 0;
+    height: 5px;
+    background-color: grey;
+}
+
+
+#watch {
+    /* background-color: red; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-top: 4.7rem;
+    padding-bottom: 4.7rem;
+
+
+}
+
+#watch #watchleft {
+    width: 50%;
+}
+
+#watch #watchleft h1 {
+    font-size: 3rem;
+}
+
+#watch #watchleft p {
+    font-size: 1.5rem;
+}
+
+#watch #watchright {
+    width: 50%;
+    position: relative;
+}
+
+#watchright img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#watchright video {
+    position: absolute;
+    top: 9.6%;
+    left: 16%;
+    z-index: 0;
+    width: 65%;
+}
+
+#kids{
+     /* background-color: red; */
+     width: 80%;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     color: white;
+     padding-top: 4.7rem;
+     padding-bottom: 4.7rem;
+
+
+}
+#kids #kidsleft{
+    width: 50%;
+}
+#kids #kidsleft img{
+    width: 100%;
+    position: relative;
+    
+}
+#kids #kidsright{
+    width: 50%;
+}
+#kids #kidsright h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#kids #kidsright p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+
+
+
+footer{
+    /* background-color: white; */
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+footer #footer-1{
+    display: flex;
+    justify-content: space-between;
+
+}
+footer p{
+    padding-top: 6px;
+    font-size: 14px;
+    color: #a5a89b;
+}
+footer #footer-1 p a{
+    color: #a5a89b;
+    font-size: 14px;
+}
+
+footer p a{
+    color: #a5a89b;
+}
+footer select {
+    background-color: #0f0f0f;
+    position: relative;
+    /* width: 80%; */
+    color: white;
+    font-size: 1rem;
+    height: 30px;
+    padding: 5px 26px 5px 26px;
+    border-radius: 3px;
+}
+
+
+#frequently{
+    /* background-color: rgb(225, 255, 0); */
+    width: 100%;
+    margin: auto;
+    color: white;
+    position: relative;
+    
+}
+#frequently .fql-h1 h1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 4.5rem;
+    
+}
+#frequently .fql-para p{
+   
+    margin-left:12rem ;
+    display: flex;
+    background-color: #bbb8b6;
+    font-size: 27px;
+    width: 70%;
+    padding: 1.3rem;
+   
+    
+}
+#frequently .fql-para .fa-plus
+{
+    font-size: 2.5rem;
+    position: absolute;
+    left: 1234px;
+  top: 174px
+}
+#frequently .fql-para #co
+{
+    font-size: 2.5rem;
+    position: absolute;
+    left: 1234px;
+  top: 274px;
+}
+#frequently .fql-para #cn
+{
+    font-size: 2.5rem;
+    position: absolute;
+    left: 1234px;
+  top: 374px;
+}
+#frequently .fql-para #do
+{
+    font-size: 2.5rem;
+    position: absolute;
+    left: 1234px;
+  top: 474px;
+}
+#frequently .fql-para #on
+{
+    font-size: 2.5rem;
+    position: absolute;
+    left: 1234px;
+  top: 574px;
+}
+#frequently .fql-para #good
+{
+    font-size: 2.5rem;
+    position: absolute;
+    left: 1234px;
+  top: 674px;
+}
+#frequently .fql-btn{
+    display: flex;
+    justify-content: center;
+}
+#frequently .fql-btn #para2{
+    font-size: 1.4rem;
+    font-weight: 200;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+#frequently .enjoy-1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: white;    */
+    width: 45%;
+    margin: auto;
+    padding-bottom: 5rem;
+    
+}
+#frequently .enjoy-1 input{
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+    width: 430px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.441);
+}
+
+#frequently .enjoy-1 input::placeholder {
+    color: Grey;
+    font-size: 1rem;
+    padding-left: 15px;
+}
+
+#frequently .enjoy-1 #btn {
+    width: 220px;
+    border-radius: 3px;
+    background-color: red;
+    margin-right: 1.3rem;
+    color: white;
+    font-size: 1.7rem;
+    padding-right: 30px;
+}
+
+#frequently .enjoy-1 .fa-chevron-right {
+
+    position: absolute;
+    top: 20px;
+    right: 55px;
+    color: white;
+    font-size: 1rem;
+}
+
+/* 
